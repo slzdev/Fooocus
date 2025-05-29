@@ -1,0 +1,74 @@
+{
+  "title": "Fooocus",
+  "description": "Foocus 2.1.844",
+  "type": "serverless",
+  "category": "image",
+  "iconUrl": "https://example.com/icon.png",
+  "config": {
+    "runsOn": "GPU",
+    "containerDiskInGb": 10,
+    "presets": [],
+    "env": [
+      {
+        "key": "STATIC_VAR",
+        "value": "static_value"
+      },
+      {
+        "key": "CMDARGS",
+        "value": "--listen"
+      },
+      {
+        "key": "DATADIR",
+        "value": "/content/data"
+      },
+      {
+        "key": "config_path",
+        "value": "/content/data/config.txt"
+      },
+      {
+        "key": "config_example_path",
+        "value": "/content/data/config_modification_tutorial.txt"
+      },
+      {
+        "key": "path_checkpoints",
+        "value": "/content/data/models/checkpoints/"
+      },
+      {
+        "key": "path_loras",
+        "value": "/content/data/models/loras/"
+      },
+      {
+        "key": "path_embeddings",
+        "value": "/content/data/models/embeddings/"
+      },
+      {
+        "key": "path_vae_approx",
+        "value": "/content/data/models/vae_approx/"
+      },
+      {
+        "key": "path_upscale_models",
+        "value": "/content/data/models/upscale_models/"
+      },
+      {
+        "key": "path_inpaint",
+        "value": "/content/data/models/inpaint/"
+      },
+      {
+        "key": "path_controlnet",
+        "value": "/content/data/models/controlnet/"
+      },
+      {
+        "key": "path_clip_vision",
+        "value": "/content/data/models/clip_vision/"
+      },
+      {
+        "key": "path_fooocus_expansion",
+        "value": "/content/data/models/prompt_expansion/fooocus_expansion/"
+      },
+      {
+        "key": "path_outputs",
+        "value": "/content/app/outputs/"
+      }
+    ]
+  }
+}
