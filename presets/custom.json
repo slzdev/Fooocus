@@ -44,13 +44,12 @@
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "realisticStockPhoto_v20.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v20.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
         "SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors": "https://huggingface.co/mashb1t/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors"
     },
-    "previous_default_models": ["realisticStockPhoto_v10.safetensors"],
+    "previous_default_models": [],
     "default_image_prompt_advanced_checkbox": true,
     "default_advanced_checkbox": true,
     "default_image_prompt_checkbox": true
